@@ -17,3 +17,7 @@ get:
 reset:
 	@echo "Resetting..."
 	ampy --port $(PORT) --baud $(BAUD) reset
+
+repl:
+	@echo "Connecting Repl"
+	@rshell --port $(PORT) --baud $(BAUD) repl
