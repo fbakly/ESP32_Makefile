@@ -2,7 +2,7 @@ PORT		=	/dev/ttyUSB0
 BAUD		=	115200
 SRC_FILES	=	$(wildcard *.py)
 
-upload: put reset
+upload: put repl
 
 put:
 	@echo "Uploading..."
